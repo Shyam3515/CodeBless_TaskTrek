@@ -1,0 +1,18 @@
+.app{
+  display:grid;
+  grid-template-rows:40px 150px auto;
+}
+.app_main{
+  display:flex;
+  justify-content: space-evenly;
+  padding: 20px 8%;
+}
+.todo-title{
+  text-align: center;
+  padding: 10px;
+  color: #6457f9;
+}
+.task_column{
+  width:40%;
+  margin :20px;
+}
